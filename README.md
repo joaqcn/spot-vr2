@@ -4,6 +4,8 @@
 
 ## Introduction
 
+This is the continuation from this repo https://github.com/joaqcn/spot-vr 
+
 This project aims to create a virtual simulation of the Boston Dynamics Spot robot using Unity, specifically designed to be controlled with Oculus Quest 3 controllers. The virtual Spot robot is a quadruped robot designed for a variety of applications, including inspection, surveillance, and research.
 
 ## Features
