@@ -1,0 +1,98 @@
+{
+  "links": [
+    {
+      "collisions": [],
+      "model": {
+        "name": "spot"
+      },
+      "name": "base",
+      "visuals": [
+        "base_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "fl.hip",
+      "visuals": [
+        "fl.hip_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "fl.uleg",
+      "visuals": [
+        "fl.uleg_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "fl.lleg",
+      "visuals": [
+        "fl.lleg_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "fr.hip",
+      "visuals": [
+        "fr.hip_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "fr.uleg",
+      "visuals": [
+        "fr.uleg_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "fr.lleg",
+      "visuals": [
+        "fr.lleg_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "hl.hip",
+      "visuals": [
+        "hl.hip_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "hl.uleg",
+      "visuals": [
+        "hl.uleg_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "hl.lleg",
+      "visuals": [
+        "hl.lleg_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "hr.hip",
+      "visuals": [
+        "hr.hip_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "hr.uleg",
+      "visuals": [
+        "hr.uleg_visual"
+      ]
+    },
+    {
+      "collisions": [],
+      "name": "hr.lleg",
+      "visuals": [
+        "hr.lleg_visual"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "additional_files": {},
+  "description": "",
+  "files": [
+    "spot_joints.yml",
+    "spot_links.yml",
+    "spot_materials.yml",
+    "spot_visuals.yml"
+  ],
+  "modelname": "spot"
+}

@@ -1,0 +1,407 @@
+{
+  "visuals": [
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "base"
+      },
+      "name": "base_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "base",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "base_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "fl.hip"
+      },
+      "name": "fl.hip_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "fl.hip",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "fl.hip_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "fl.uleg"
+      },
+      "name": "fl.uleg_visual",
+      "origin": {
+        "position": [
+          -8.720998645461719e-10,
+          2.9775538340492957e-08,
+          -1.0000668348997266e-09
+        ],
+        "relative_to": "fl.uleg",
+        "rotation": [
+          0.027621449980869156,
+          0.005064981753577724,
+          -0.0033073706151520357
+        ]
+      },
+      "original_name": "fl.uleg_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0000003576278687,
+          1.0
+        ],
+        "unique_name": "fl.lleg"
+      },
+      "name": "fl.lleg_visual",
+      "origin": {
+        "position": [
+          -4.697008623710808e-08,
+          4.41506131654279e-09,
+          4.992760577193778e-08
+        ],
+        "relative_to": "fl.lleg",
+        "rotation": [
+          -0.012580046501504755,
+          0.267820755548555,
+          0.013324618686825933
+        ]
+      },
+      "original_name": "fl.lleg_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "fr.hip"
+      },
+      "name": "fr.hip_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "fr.hip",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "fr.hip_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "fr.uleg"
+      },
+      "name": "fr.uleg_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "fr.uleg",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "fr.uleg_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.9999998807907104,
+          0.9999998211860657,
+          0.9999998211860657
+        ],
+        "unique_name": "fr.lleg"
+      },
+      "name": "fr.lleg_visual",
+      "origin": {
+        "position": [
+          4.890050489536613e-09,
+          -2.4306470725043994e-10,
+          -5.6160021078e-09
+        ],
+        "relative_to": "fr.lleg",
+        "rotation": [
+          -0.009999214577270689,
+          -0.11141850764148264,
+          -0.006170031451837362
+        ]
+      },
+      "original_name": "fr.lleg_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "hl.hip"
+      },
+      "name": "hl.hip_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "hl.hip",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "hl.hip_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          0.9999999403953552,
+          1.0
+        ],
+        "unique_name": "hl.uleg"
+      },
+      "name": "hl.uleg_visual",
+      "origin": {
+        "position": [
+          -2.7755575615628914e-17,
+          2.7755575615628914e-17,
+          -2.7755575615628914e-17
+        ],
+        "relative_to": "hl.uleg",
+        "rotation": [
+          -3.119598356499824e-18,
+          0.0,
+          -3.500636003745079e-18
+        ]
+      },
+      "original_name": "hl.uleg_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.9999998807907104,
+          0.9999998211860657,
+          0.9999999403953552
+        ],
+        "unique_name": "hl.lleg"
+      },
+      "name": "hl.lleg_visual",
+      "origin": {
+        "position": [
+          -7.568189741569142e-09,
+          -5.9009280517496876e-08,
+          3.652442320811744e-09
+        ],
+        "relative_to": "hl.lleg",
+        "rotation": [
+          -0.08610078339128027,
+          -0.7161809763969724,
+          0.07040860269239801
+        ]
+      },
+      "original_name": "hl.lleg_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "hr.hip"
+      },
+      "name": "hr.hip_visual",
+      "origin": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_to": "hr.hip",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_name": "hr.hip_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "unique_name": "hr.uleg"
+      },
+      "name": "hr.uleg_visual",
+      "origin": {
+        "position": [
+          3.113147500899416e-08,
+          6.012377243291844e-08,
+          6.017955023196464e-10
+        ],
+        "relative_to": "hr.uleg",
+        "rotation": [
+          7.972333373199056e-11,
+          -5.740075081916984e-12,
+          -8.368237724521012e-11
+        ]
+      },
+      "original_name": "hr.uleg_visual"
+    },
+    {
+      "geometry": {
+        "exported": {},
+        "imported": "input file not known",
+        "mesh_orientation": {
+          "forward": "Y",
+          "up": "Z"
+        },
+        "scale": [
+          0.9999999403953552,
+          1.0000001192092896,
+          1.0
+        ],
+        "unique_name": "hr.lleg"
+      },
+      "name": "hr.lleg_visual",
+      "origin": {
+        "position": [
+          -1.8409529733975916e-08,
+          4.056173785738082e-09,
+          9.233861864021975e-08
+        ],
+        "relative_to": "hr.lleg",
+        "rotation": [
+          -0.4436260131136493,
+          -1.2589640654996557,
+          0.444271311766643
+        ]
+      },
+      "original_name": "hr.lleg_visual"
+    }
+  ]
+}

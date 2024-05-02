@@ -1,0 +1,268 @@
+{
+  "joints": [
+    {
+      "child": "fl.hip",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "fl.hx",
+      "origin": {
+        "position": [
+          0.2978500183671713,
+          0.054999999701976776,
+          0.0
+        ],
+        "relative_to": "base",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "base"
+    },
+    {
+      "child": "fl.uleg",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "fl.hy",
+      "origin": {
+        "position": [
+          0.0,
+          0.11080000549554825,
+          0.0
+        ],
+        "relative_to": "fl.hip",
+        "rotation": [
+          0.02074035476362488,
+          0.8538129204186737,
+          -0.0289035843174546
+        ]
+      },
+      "parent": "fl.hip"
+    },
+    {
+      "child": "fl.lleg",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "fl.kn",
+      "origin": {
+        "position": [
+          0.025000064833262503,
+          2.0899710129196336e-08,
+          -0.3199999845641289
+        ],
+        "relative_to": "fl.uleg",
+        "rotation": [
+          2.2660038610729347,
+          -1.4019352300018908,
+          -2.290977125301462
+        ]
+      },
+      "parent": "fl.uleg"
+    },
+    {
+      "child": "fr.hip",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "fr.hx",
+      "origin": {
+        "position": [
+          0.2978500183671713,
+          -0.054999999701976776,
+          0.0
+        ],
+        "relative_to": "base",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "base"
+    },
+    {
+      "child": "fr.uleg",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "fr.hy",
+      "origin": {
+        "position": [
+          0.0,
+          -0.11080000549554825,
+          0.0
+        ],
+        "relative_to": "fr.hip",
+        "rotation": [
+          0.0,
+          0.975704955838876,
+          0.0
+        ]
+      },
+      "parent": "fr.hip"
+    },
+    {
+      "child": "fr.lleg",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "fr.kn",
+      "origin": {
+        "position": [
+          0.024999994179563,
+          0.0,
+          -0.31999999318071415
+        ],
+        "relative_to": "fr.uleg",
+        "rotation": [
+          3.123005874363971,
+          -1.3103745993739038,
+          -3.0583202896454185
+        ]
+      },
+      "parent": "fr.uleg"
+    },
+    {
+      "child": "hl.hip",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "hl.hx",
+      "origin": {
+        "position": [
+          -0.2978500071913004,
+          0.054999999701976776,
+          0.0
+        ],
+        "relative_to": "base",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "base"
+    },
+    {
+      "child": "hl.uleg",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "hl.hy",
+      "origin": {
+        "position": [
+          0.0,
+          0.11080000549554825,
+          0.0
+        ],
+        "relative_to": "hl.hip",
+        "rotation": [
+          0.09460480729092707,
+          0.9025618345598989,
+          0.06711047055402283
+        ]
+      },
+      "parent": "hl.hip"
+    },
+    {
+      "child": "hl.lleg",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "hl.kn",
+      "origin": {
+        "position": [
+          0.025000014141968147,
+          -6.25830406941752e-09,
+          -0.3199999905904056
+        ],
+        "relative_to": "hl.uleg",
+        "rotation": [
+          -0.2404503907926142,
+          -1.0341117594748326,
+          0.28303563291628653
+        ]
+      },
+      "parent": "hl.uleg"
+    },
+    {
+      "child": "hr.hip",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "hr.hx",
+      "origin": {
+        "position": [
+          -0.2978500071913004,
+          -0.054999999701976776,
+          0.0
+        ],
+        "relative_to": "base",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent": "base"
+    },
+    {
+      "child": "hr.uleg",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "hr.hy",
+      "origin": {
+        "position": [
+          0.0,
+          -0.11080000549554825,
+          0.0
+        ],
+        "relative_to": "hr.hip",
+        "rotation": [
+          0.006875944894729549,
+          0.4273693058040893,
+          -0.017541108941490077
+        ]
+      },
+      "parent": "hr.hip"
+    },
+    {
+      "child": "hr.lleg",
+      "constraint_axes": [],
+      "cut_joint": false,
+      "joint_dependencies": [],
+      "joint_type": "revolute",
+      "name": "hr.kn",
+      "origin": {
+        "position": [
+          0.025000002315123615,
+          5.71855968689583e-08,
+          -0.32000001653171867
+        ],
+        "relative_to": "hr.uleg",
+        "rotation": [
+          0.029827925262569017,
+          0.0911272008568802,
+          0.013432149967327622
+        ]
+      },
+      "parent": "hr.uleg"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+<robot name="spot" version="1.0">
+  <joint name="fl.hx" type="revolute">
+    <limit lower="-0.78540" upper="0.78540" effort="1000" velocity="1000.00000"/>
+    <origin rpy="0.00000 0.00000 0.00000" xyz="0.29785 0.05500 0.00000"/>
+    <parent link="base"/>
+    <child link="fl.hip"/>
+    <axis xyz="1.00000 0.00000 0.00000"/>
+  </joint>
+  <joint name="fl.hy" type="revolute">
+    <limit lower="-0.89884" upper="2.29511" effort="1000" velocity="1000.00000"/>
+    <origin rpy="0.02074 0.85381 -0.02890" xyz="0.00000 0.11080 0.00000"/>
+    <parent link="fl.hip"/>
+    <child link="fl.uleg"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="fl.kn" type="revolute">
+    <limit lower="-2.79290" upper="-0.25440" effort="1000" velocity="1000.00000"/>
+    <origin rpy="2.26600 -1.40194 -2.29098" xyz="0.02500 0.00000 -0.32000"/>
+    <parent link="fl.uleg"/>
+    <child link="fl.lleg"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="fr.hx" type="revolute">
+    <limit lower="-0.78540" upper="0.78540" effort="1000" velocity="1000.00000"/>
+    <origin rpy="0.00000 0.00000 0.00000" xyz="0.29785 -0.05500 0.00000"/>
+    <parent link="base"/>
+    <child link="fr.hip"/>
+    <axis xyz="1.00000 0.00000 0.00000"/>
+  </joint>
+  <joint name="fr.hy" type="revolute">
+    <limit lower="-0.89885" upper="2.24363" effort="1000" velocity="1000.00000"/>
+    <origin rpy="0.00000 0.97570 0.00000" xyz="0.00000 -0.11080 0.00000"/>
+    <parent link="fr.hip"/>
+    <child link="fr.uleg"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="fr.kn" type="revolute">
+    <limit lower="-2.79290" upper="-0.25565" effort="1000" velocity="1000.00000"/>
+    <origin rpy="3.12301 -1.31037 -3.05832" xyz="0.02500 0.00000 -0.32000"/>
+    <parent link="fr.uleg"/>
+    <child link="fr.lleg"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="hl.hx" type="revolute">
+    <limit lower="-0.78540" upper="0.78540" effort="1000" velocity="1000.00000"/>
+    <origin rpy="0.00000 0.00000 0.00000" xyz="-0.29785 0.05500 0.00000"/>
+    <parent link="base"/>
+    <child link="hl.hip"/>
+    <axis xyz="1.00000 0.00000 0.00000"/>
+  </joint>
+  <joint name="hl.hy" type="revolute">
+    <limit lower="-0.89884" upper="2.29511" effort="1000" velocity="1000.00000"/>
+    <origin rpy="0.09460 0.90256 0.06711" xyz="0.00000 0.11080 0.00000"/>
+    <parent link="hl.hip"/>
+    <child link="hl.uleg"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="hl.kn" type="revolute">
+    <limit lower="-2.79290" upper="-0.24707" effort="1000" velocity="1000.00000"/>
+    <origin rpy="-0.24045 -1.03411 0.28304" xyz="0.02500 -0.00000 -0.32000"/>
+    <parent link="hl.uleg"/>
+    <child link="hl.lleg"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="hr.hx" type="revolute">
+    <limit lower="-0.78540" upper="0.78540" effort="1000" velocity="1000.00000"/>
+    <origin rpy="0.00000 0.00000 0.00000" xyz="-0.29785 -0.05500 0.00000"/>
+    <parent link="base"/>
+    <child link="hr.hip"/>
+    <axis xyz="1.00000 0.00000 0.00000"/>
+  </joint>
+  <joint name="hr.hy" type="revolute">
+    <limit lower="-0.89884" upper="2.29511" effort="1000" velocity="1000.00000"/>
+    <origin rpy="0.00688 0.42737 -0.01754" xyz="0.00000 -0.11080 0.00000"/>
+    <parent link="hr.hip"/>
+    <child link="hr.uleg"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <joint name="hr.kn" type="revolute">
+    <limit lower="-2.79290" upper="-0.24828" effort="1000" velocity="1000.00000"/>
+    <origin rpy="0.02983 0.09113 0.01343" xyz="0.02500 0.00000 -0.32000"/>
+    <parent link="hr.uleg"/>
+    <child link="hr.lleg"/>
+    <axis xyz="0.00000 1.00000 0.00000"/>
+  </joint>
+  <link name="base">
+    <visual name="base_visual">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="base"/>
+      <geometry>
+        <mesh filename="../meshes/stl/base.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="fl.hip">
+    <visual name="fl.hip_visual">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="fl.hip"/>
+      <geometry>
+        <mesh filename="../meshes/stl/fl.hip.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="fl.lleg">
+    <visual name="fl.lleg_visual">
+      <origin rpy="-0.01258 0.26782 0.01332" xyz="-0.00000 0.00000 0.00000"/>
+      <material name="fl.lleg"/>
+      <geometry>
+        <mesh filename="../meshes/stl/fl.lleg.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="fl.uleg">
+    <visual name="fl.uleg_visual">
+      <origin rpy="0.02762 0.00506 -0.00331" xyz="-0.00000 0.00000 -0.00000"/>
+      <material name="fl.uleg"/>
+      <geometry>
+        <mesh filename="../meshes/stl/fl.uleg.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr.hip">
+    <visual name="fr.hip_visual">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="fr.hip"/>
+      <geometry>
+        <mesh filename="../meshes/stl/fr.hip.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr.lleg">
+    <visual name="fr.lleg_visual">
+      <origin rpy="-0.01000 -0.11142 -0.00617" xyz="0.00000 -0.00000 -0.00000"/>
+      <material name="fr.lleg"/>
+      <geometry>
+        <mesh filename="../meshes/stl/fr.lleg.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="fr.uleg">
+    <visual name="fr.uleg_visual">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="fr.uleg"/>
+      <geometry>
+        <mesh filename="../meshes/stl/fr.uleg.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="hl.hip">
+    <visual name="hl.hip_visual">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="hl.hip"/>
+      <geometry>
+        <mesh filename="../meshes/stl/hl.hip.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="hl.lleg">
+    <visual name="hl.lleg_visual">
+      <origin rpy="-0.08610 -0.71618 0.07041" xyz="-0.00000 -0.00000 0.00000"/>
+      <material name="hl.lleg"/>
+      <geometry>
+        <mesh filename="../meshes/stl/hl.lleg.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="hl.uleg">
+    <visual name="hl.uleg_visual">
+      <origin rpy="-0.00000 0.00000 -0.00000" xyz="-0.00000 0.00000 -0.00000"/>
+      <material name="hl.uleg"/>
+      <geometry>
+        <mesh filename="../meshes/stl/hl.uleg.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="hr.hip">
+    <visual name="hr.hip_visual">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="hr.hip"/>
+      <geometry>
+        <mesh filename="../meshes/stl/hr.hip.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="hr.lleg">
+    <visual name="hr.lleg_visual">
+      <origin rpy="-0.44363 -1.25896 0.44427" xyz="-0.00000 0.00000 0.00000"/>
+      <material name="hr.lleg"/>
+      <geometry>
+        <mesh filename="../meshes/stl/hr.lleg.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="hr.uleg">
+    <visual name="hr.uleg_visual">
+      <origin rpy="0.00000 -0.00000 -0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="hr.uleg"/>
+      <geometry>
+        <mesh filename="../meshes/stl/hr.uleg.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <material name="base">
+    <color rgba="1.00000 0.83922 0.00000 1.00000"/>
+  </material>
+  <material name="fl.hip">
+    <color rgba="0.20000 0.20000 0.20000 1.00000"/>
+  </material>
+  <material name="fl.lleg">
+    <color rgba="0.20000 0.20000 0.20000 1.00000"/>
+  </material>
+  <material name="fl.uleg">
+    <color rgba="1.00000 0.83922 0.00000 1.00000"/>
+  </material>
+  <material name="fr.hip">
+    <color rgba="0.20000 0.20000 0.20000 1.00000"/>
+  </material>
+  <material name="fr.lleg">
+    <color rgba="0.20000 0.20000 0.20000 1.00000"/>
+  </material>
+  <material name="fr.uleg">
+    <color rgba="1.00000 0.83922 0.00000 1.00000"/>
+  </material>
+  <material name="hl.hip">
+    <color rgba="0.20000 0.20000 0.20000 1.00000"/>
+  </material>
+  <material name="hl.lleg">
+    <color rgba="0.20000 0.20000 0.20000 1.00000"/>
+  </material>
+  <material name="hl.uleg">
+    <color rgba="1.00000 0.83922 0.00000 1.00000"/>
+  </material>
+  <material name="hr.hip">
+    <color rgba="0.20000 0.20000 0.20000 1.00000"/>
+  </material>
+  <material name="hr.lleg">
+    <color rgba="0.20000 0.20000 0.20000 1.00000"/>
+  </material>
+  <material name="hr.uleg">
+    <color rgba="1.00000 0.83922 0.00000 1.00000"/>
+  </material>
+</robot>
