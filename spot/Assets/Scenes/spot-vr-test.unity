@@ -393,7 +393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modelGameObject: {fileID: 463684837}
-  speed: 5
+  speed: 10
   rotationSpeed: 30
   rootBody: {fileID: 1786741607}
   animatorGameObject: {fileID: 463684837}
