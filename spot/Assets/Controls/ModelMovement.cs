@@ -43,13 +43,17 @@ public class ModelMovement : MonoBehaviour
     private void RotateModel()
     {
         // Rotate the modelGameObject based on input
-        if (Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.Joystick1Button5))
+        if (Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.JoystickButton0))
         {
             modelGameObject.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+            x = -1;
+            y = 0;
         }
 
-        if (Input.GetKey(KeyCode.E) || Input.GetKey(KeyCode.Joystick1Button4))
+        if (Input.GetKey(KeyCode.E) || Input.GetKey(KeyCode.Joystick1Button2))
         {
+            x = 1;
+            y = 0;
             modelGameObject.transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
         }
     }
