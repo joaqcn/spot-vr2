@@ -11,11 +11,10 @@ public class ModelMovement : MonoBehaviour
     [SerializeField] private GameObject animatorGameObject; // Reference to the GameObject with the animator component
     [SerializeField] Animator animator;
     private float x, y;
-    
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = animatorGameObject.GetComponent<Animator>(); // Fix this line to get the Animator from animatorGameObject
     }
 
     void Update()
@@ -30,7 +29,7 @@ public class ModelMovement : MonoBehaviour
 
         // Calculate movement based on input
         movement = Movement(movement);
-        Vector3 newPosition = rootBody.transform.position + movement * (speed * Time.deltaTime);
+        Vector3 newPosition = rootBody.transform.position + modelGameObject.transform.TransformDirection(movement) * (speed * Time.deltaTime);
 
         animator.SetFloat("x", x);
         animator.SetFloat("y", y);
@@ -45,16 +44,16 @@ public class ModelMovement : MonoBehaviour
         // Rotate the modelGameObject based on input
         if (Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.JoystickButton0))
         {
-            modelGameObject.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+            modelGameObject.transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime); // Reverse the rotation direction
             x = -1;
             y = 0;
         }
 
         if (Input.GetKey(KeyCode.E) || Input.GetKey(KeyCode.Joystick1Button2))
         {
+            modelGameObject.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
             x = 1;
             y = 0;
-            modelGameObject.transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
         }
     }
 

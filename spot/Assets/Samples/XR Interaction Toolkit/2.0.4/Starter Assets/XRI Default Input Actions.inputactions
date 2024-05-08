@@ -1020,7 +1020,7 @@
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "00a4dc9f-1ee6-4349-b0e9-72d5dccaadd6",
+                    "id": "d92abd76-f331-4042-9637-77efe3c2ce45",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -1069,6 +1069,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "384224bf-7120-43f4-854a-dd6f18788a80",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "StickDeadzone",
+                    "groups": "Continuous Move",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
