@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8a5edcd140cde00409ed63152833915d
+  - enabled: 1
+    path: Assets/Scenes/spot-vr-test.unity
+    guid: 26ce2b23b3299854e9dc1474e29635f9
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fbed6416f8277ad43914cc3e96b26bc6, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d3529af8f15c4be4eaa2a04f35351f85, type: 2}
