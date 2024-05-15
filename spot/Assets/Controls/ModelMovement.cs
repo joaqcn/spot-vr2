@@ -41,21 +41,28 @@ public class ModelMovement : MonoBehaviour
 
     private void RotateModel()
     {
-        // Rotate the modelGameObject based on input
+        // Get the rotation input
+        float rotationAmount = 0f;
         if (Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.JoystickButton0))
         {
-            modelGameObject.transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime); // Reverse the rotation direction
+            rotationAmount = -rotationSpeed * Time.deltaTime; // Rotate left
             x = -1;
             y = 0;
         }
-
-        if (Input.GetKey(KeyCode.E) || Input.GetKey(KeyCode.Joystick1Button2))
+        else if (Input.GetKey(KeyCode.E) || Input.GetKey(KeyCode.Joystick1Button2))
         {
-            modelGameObject.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+            rotationAmount = rotationSpeed * Time.deltaTime; // Rotate right
             x = 1;
             y = 0;
         }
+
+        // Apply rotation based on the input
+        Quaternion deltaRotation = Quaternion.Euler(Vector3.up * rotationAmount);
+        modelGameObject.transform.rotation *= deltaRotation;
     }
+
+
+
 
     private Vector3 Movement(Vector3 movement)
     {
